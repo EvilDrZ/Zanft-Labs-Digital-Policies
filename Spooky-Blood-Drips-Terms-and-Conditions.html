@@ -20,6 +20,7 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center; /* Center align all text within the container */
         }
         h1, h2 {
             color: #212529;
@@ -36,18 +37,25 @@
         strong {
             color: #000;
         }
-        p, li {
+        /* Keep paragraphs and lists left-aligned for readability */
+        p, ol {
+            text-align: left;
             margin-bottom: 1em;
         }
         ol {
-            padding-left: 20px;
+            padding-left: 40px; /* Adjust padding for centered layout */
+        }
+        .contact-info {
+            text-align: center; /* Ensure contact info is centered */
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="https://evildrz.github.io/Zanft-Labs-Digital-Policies/Logo_Dark.png" alt="Zanft Labs Logo" style="width: 150px; margin-bottom: 20px;">
+
         <h1>Terms and Conditions for Spooky Blood Drips</h1>
-        <p><strong>Last updated: October 9, 2025</strong></p>
+        <p style="text-align: center;"><strong>Last updated: October 9, 2025</strong></p>
 
         <h2>1. Agreement to Terms</h2>
         <p>These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and <strong>Steven Zanft</strong>, doing business as <strong>Zanft Labs</strong> (“we,” “us,” or “our”), concerning your access to and use of the <strong>Spooky Blood Drips</strong> application as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Service”).</p>
@@ -121,10 +129,12 @@
         <p>These Terms and Conditions and any policies or operating rules posted by us on the Service constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms and Conditions shall not operate as a waiver of such right or provision.</p>
 
         <h2>21. Contact Us</h2>
-        <p>In order to resolve a complaint regarding the Service or to receive further information regarding use of the Service, please contact us at:</p>
-        <p><strong>support.zanftlabs@gmail.com</strong></p>
-        <p>Or by using our contact form:</p>
-        <p><strong>[Link to your new Google Form for this app]</strong></p>
+        <div class="contact-info">
+            <p>In order to resolve a complaint regarding the Service or to receive further information regarding use of the Service, please contact us at:</p>
+            <p><strong>zanft.labs@gmail.com</strong></p>
+            <p>Or by using our contact form:</p>
+            <p><a href="https://forms.gle/SXWoQ5VPVqyP5KQ89" target="_blank" rel="noopener noreferrer">Contact Form</a></p>
+        </div>
 
     </div>
 </body>
